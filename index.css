@@ -1,0 +1,39 @@
+.wrap {
+    font-family: "Times New Roman";
+    width: 100%;
+}
+
+.header {
+    background-color: green;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu {
+    margin-top: 50px;
+    background-color: lightgrey;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    overflow: scroll;
+}
+.sidebar li{
+    height:1000px;
+}
+.main li{
+    height: 2000px;
+}
+.main {
+    float: left;
+    width: 70%;
+    overflow: scroll;
+}
+
+.sidebar ul li:hover {
+    background-color: white;
+}
